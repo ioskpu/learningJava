@@ -42,6 +42,7 @@ public class LoginView extends javax.swing.JFrame {
         Wallpaper = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(930, 415));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(javax.swing.UIManager.getDefaults().getColor("Actions.Grey"));
@@ -77,10 +78,10 @@ public class LoginView extends javax.swing.JFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Wallpaper.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        Wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/banner12-octo-tipos-de-emepresas-1024x638.jpg"))); // NOI18N
-        jPanel2.add(Wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 410));
+        Wallpaper.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/wallpaper.jpg"))); // NOI18N
+        jPanel2.add(Wallpaper, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, -1));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 412));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 440, 420));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
