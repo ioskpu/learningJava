@@ -15,6 +15,6 @@ public class Main {
         empleado.setDepartamento("Ventas");
         
         System.out.println("Nombre del empleado: " + empleado.getNombre());
-        System.out.println("Puesto del empleado: " + empleado.getPuesto());
+        System.out.println("Puesto del empleado: " + empleado.getPuesto()   );
     }
 }
