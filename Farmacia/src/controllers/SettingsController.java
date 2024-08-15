@@ -22,6 +22,7 @@ public class SettingsController implements MouseListener {
         this.views.jLabelSettings.addMouseListener(this);
         this.views.jLabelSuppliers.addMouseListener(this);
         this.views.jLabelCustomers.addMouseListener(this);
+        this.views.jLabelSales.addMouseListener(this);
     }
 
     @Override
@@ -57,6 +58,8 @@ public class SettingsController implements MouseListener {
             views.jPanelReports.setBackground(new Color(152, 202, 63));
         }else if (e.getSource() == views.jLabelSettings){
             views.jPanelSettings.setBackground(new Color(152, 202, 63));
+        }else if(e.getSource() == views.jLabelSales){
+            views.jPanelSales.setBackground(new Color(152, 202, 63));
         }
     }
 
@@ -78,6 +81,8 @@ public class SettingsController implements MouseListener {
             views.jPanelReports.setBackground(new Color(0,51,51));
         }else if (e.getSource() == views.jLabelSettings){
             views.jPanelSettings.setBackground(new Color(0,51,51));
+        }else if(e.getSource() == views.jLabelSales){
+            views.jPanelSales.setBackground(new Color(0,51,51));
         }
     }
     
